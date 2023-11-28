@@ -287,6 +287,10 @@ li {
         
     }
 
+    .text__wrapper {
+        width: 100%;
+    }
+
     .quality__header {
         font-size: 16px;
         font-weight: bold;
@@ -300,7 +304,6 @@ li {
         text-align: left;
         color: #243e63;
         margin: 16px 0 0;
-        width: 45%;
 
     }
 
@@ -309,7 +312,6 @@ li {
         font-weight: 300;
         color: #7c8ba1;
         text-align: left;
-        width: 45%;
         margin: 16px 0 0;
         letter-spacing: 0.5px;
     }
@@ -332,13 +334,12 @@ li {
         transition: 300ms;
     }
 
-    .img__wrapper
-   
-    .quality__img {
-        width: 50%;
-        float: right;
+    .img__wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;  
     }
-
+    
 
 
 
