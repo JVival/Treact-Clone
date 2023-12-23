@@ -11,7 +11,7 @@ body {
     padding: 32px;
 }
 
-.row {
+.row { 
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -281,14 +281,16 @@ li {
 
     /* DESIGN */
 
-    .quality__header--section {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .text__wrapper {
+    .quality__row {
         width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .quality__header--section {
+        width: 100%;    
     }
 
     .quality__header {
@@ -304,6 +306,7 @@ li {
         text-align: left;
         color: #243e63;
         margin: 16px 0 0;
+        
 
     }
 
@@ -314,6 +317,8 @@ li {
         text-align: left;
         margin: 16px 0 0;
         letter-spacing: 0.5px;
+        width: 90%;
+        
     }
 
     .quality__button {
@@ -326,7 +331,7 @@ li {
         border-radius: 99px;
         border: none;
         cursor: pointer;
-        width: 12%;
+        width: 23%;
     }
 
     .quality__button:hover {
@@ -334,14 +339,69 @@ li {
         transition: 300ms;
     }
 
-    .img__wrapper {
+    .quality__img {
+        width: 100%;
+    }
+
+    /* QUALITY */
+
+    .steps__section {
+       display: flex;
+
+    }
+
+    .steps__img {
+        width: 95%;
+    }
+
+    .steps__list {
+        width: 50%;
         display: flex;
         flex-direction: column;
-        width: 100%;  
     }
-    
 
+    .steps__header {
+        font-size: 16px;
+        color: #6415ff;
+        letter-spacing: 2px;
+    }
 
+    .steps__subheader {
+        font-size: 48px;
+        font-weight: 900;
+        color: #243e63;
+        margin: 16px, 0px, 0px;
+        
+    }
 
+    .lists__wrapper {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
+    .lists {
+       display: flex;
+       flex-direction: column;
+    }
 
+    .list__numbers {
+        font-size: 36px;
+        font-weight: 500;
+        color: #CBD5E0;
+    }
+
+    .list__header {
+        font-size: 20px;
+        font-weight: 500;
+        color: #243e63;
+    }
+
+    .list__para {
+        font-size: 14px;
+        font-weight: 500;
+        color: #718096;
+        margin: 12px 0px 0px;
+    }
+
+   
