@@ -10,7 +10,14 @@
 body {
     padding: 32px;
 }
+footer
+{
+    background-color: rgb(100 21 255);
+    color: white;
+    margin-left: -2rem;
+    margin-right: -2rem;
 
+}
 .row { 
     width: 100%;
     max-width: 1200px;
@@ -151,6 +158,8 @@ li {
         padding: 24px;
         padding-right: 250px;
         border-color: rgba(0, 0, 0, 0.1);
+        overflow-x: none;
+        white-space: none;
     }
 
     .email__box:hover {
@@ -595,5 +604,67 @@ li {
      #testimonials_pic{
         width: 100%;
      }
+     #links
+     {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+     }
+     .link
+     {
+        display: flex;
+        flex-direction: column;
+        width: calc(100%/5);
+        align-items: left;
+        gap: 0.7rem;
+     }
+     #footer-container
+     {
+        display: flex;
+        flex-direction: row;
+        background-color: (100 21 255 / var(--tw-bg-opacity))
+     }
+     .footer__info
+     {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: -2rem;
+        padding-bottom: 5rem;
+     }
+     .footer-redirect {
+        color: white;
+        text-decoration: none;
+        width: fit-content;
+        border-bottom: transparent solid 2px;
+        transition-duration: 300ms;
+        }
+      
+      .footer-redirect:hover 
+      {
+        border-bottom: solid white 2px;
+        cursor: pointer;
+      }
+     #horizontal-line
+     {
+        border-bottom: #7c8ba1 solid 2pt;
+        margin-left: 10%;
+        margin-right: 10%;  
+        margin-bottom: 3rem;     
+     }
+     #copyright-text
+     {
+        font-size: 1rem;
+        color: #7c8ba1;
+        font-weight: bolder;
+     }
+     .footer-images-container
+     {
+        display: flex;
+        flex-direction: row;
+        gap: 0.1rem;
+     }
+
 
    
