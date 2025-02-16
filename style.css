@@ -595,15 +595,8 @@ li {
      }
 
 
-     /* TESTEMONIALS */
+     /* FOOTER */
 
-     .testimonials__section {
-        display: flex;
-     }
-
-     #testimonials_pic{
-        width: 100%;
-     }
      #links
      {
         display: flex;
@@ -622,12 +615,13 @@ li {
      #footer-container
      {
         display: flex;
-        flex-direction: row;
+
         background-color: (100 21 255 / var(--tw-bg-opacity))
      }
      .footer__info
      {
         display: flex;
+        
         justify-content: space-between;
         align-items: center;
         margin-bottom: -2rem;
@@ -656,7 +650,7 @@ li {
      #copyright-text
      {
         font-size: 1rem;
-        color: #7c8ba1;
+        color: #CBD5E0;
         font-weight: bolder;
      }
      .footer-images-container
@@ -664,6 +658,9 @@ li {
         display: flex;
         flex-direction: row;
         gap: 0.1rem;
+     }
+     .footer__logo {
+        width: 2rem;
      }
 
 
